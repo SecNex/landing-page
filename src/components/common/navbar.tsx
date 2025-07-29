@@ -53,7 +53,7 @@ export const Navbar = () => {
 
 						{/* Desktop Navigation */}
 						<div className="hidden md:flex items-center gap-6">
-							<Button
+							{/* <Button
 								variant="ghost"
 								className="hover:bg-zinc-800/50"
 								asChild
@@ -64,7 +64,7 @@ export const Navbar = () => {
 								>
 									Blog
 								</Link>
-							</Button>
+							</Button> */}
 							<Button
 								variant="ghost"
 								className="hover:bg-zinc-800/50"
@@ -134,13 +134,13 @@ export const Navbar = () => {
 				{isMobileMenuOpen && (
 					<div className="md:hidden bg-black/95 backdrop-blur-sm border border-zinc-800 rounded-lg">
 						<div className="px-2 pt-2 pb-3 space-y-2">
-							<Link
+							{/* <Link
 								href="/blog"
 								className="block px-3 py-2 rounded-md text-base font-medium text-zinc-300 hover:text-white hover:bg-zinc-800/50"
 								onClick={() => setIsMobileMenuOpen(false)}
 							>
 								Blog
-							</Link>
+							</Link> */}
 							<Link
 								href="/contact"
 								className="block px-3 py-2 rounded-md text-base font-medium text-zinc-300 hover:text-white hover:bg-zinc-800/50"
