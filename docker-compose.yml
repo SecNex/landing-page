@@ -4,3 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    environment:
+      - NOTION_API_KEY=${NOTION_API_KEY}
+      - NOTION_DATABASE_ID=${NOTION_DATABASE_ID}
+      - NOTION_MILESTONES_DATABASE_ID=${NOTION_MILESTONES_DATABASE_ID}
