@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Footer } from "@/components/common/footer";
 import { HeroSection } from "@/components/common/hero";
 import { Navbar } from "@/components/common/navbar";
-import { Milestones } from "@/components/common/milestones";
+// import { Milestones } from "@/components/common/milestones";
 import { TechStack } from "@/components/common/techstack";
 import { LoginMockup } from "@/components/common/login-mockup";
 import { ProjectConnection } from "@/components/common/project-connection";
@@ -49,7 +49,7 @@ export default async function Home() {
 					</div>
 					<ProjectConnection />
 					<TechStack />
-					<Milestones />
+					{/* <Milestones /> */}
 					<div className="flex flex-col gap-4">
 						<h1 className="">
 							<span className="block bg-gradient-to-r from-purple-400 via-cyan-400 to-pink-400 bg-clip-text text-transparent text-2xl sm:text-2xl md:text-4xl font-extrabold">
