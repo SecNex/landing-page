@@ -1,0 +1,6 @@
+services:
+  page:
+    container_name: landing-page
+    build:
+      context: .
+      dockerfile: Dockerfile
